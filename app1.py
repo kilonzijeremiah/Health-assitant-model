@@ -14,10 +14,9 @@ from collections import Counter
 
 @st.cache_data
 def load_data():
-   df = pd.read_csv('dataset.csv')
+    df = pd.read_csv('dataset.csv')
     df.fillna("None", inplace=True)
     return df
-
 df = load_data()
 
 mlb = MultiLabelBinarizer()
