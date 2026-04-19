@@ -14,7 +14,7 @@ from collections import Counter
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r'C:\Users\user\Desktop\Thesis\dataset.csv')
+   df = pd.read_csv('dataset.csv')
     df.fillna("None", inplace=True)
     return df
 
