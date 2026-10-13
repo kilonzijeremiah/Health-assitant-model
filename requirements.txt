@@ -3,3 +3,8 @@ uvicorn
 numpy
 scikit-learn
 joblib
+streamlit
+pandas
+plotly
+matplotlib
+seaborn
